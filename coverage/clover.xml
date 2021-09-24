@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1632511112607" clover="3.2.0">
-  <project timestamp="1632511112607" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2" elements="6" coveredelements="5" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
-    <file name="withPrecision.ts" path="/Users/lmonninger/Desktop/Dev/cogint/packages/Test/tulleries/src/Number/withPrecision.ts">
+<coverage generated="1632512675146" clover="3.2.0">
+  <project timestamp="1632512675146" name="All files">
+    <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3" elements="9" coveredelements="8" complexity="0" loc="5" ncloc="5" packages="2" files="2" classes="2"/>
+    <package name="Function">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isStringEqual.ts" path="/Users/lmonninger/Desktop/Dev/cogint/packages/Test/tulleries/src/Function/isStringEqual.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="20001" type="stmt"/>
+      </file>
+    </package>
+    <package name="Number">
       <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="10" count="34" type="cond" truecount="0" falsecount="1"/>
-      <line num="11" count="20033" type="stmt"/>
-    </file>
+      <file name="withPrecision.ts" path="/Users/lmonninger/Desktop/Dev/cogint/packages/Test/tulleries/src/Number/withPrecision.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="10" count="14" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="20013" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
