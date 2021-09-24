@@ -1,5 +1,5 @@
 import { withPrecision } from "./withPrecision";
-import {isLikelyDeterministic} from "determinismus";
+import {seemsDeterministic} from "determinismus";
 
 export const WithPrecisonTestSuiteA = ()=>{
 
@@ -41,7 +41,7 @@ export const WithPrecisonTestSuiteA = ()=>{
             ]
 
             expect(
-                isLikelyDeterministic({
+                seemsDeterministic({
                     func: withPrecision(precision),
                     argGenerator : generator
                 })

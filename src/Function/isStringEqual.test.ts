@@ -1,5 +1,5 @@
 import { functionsStringEqual } from "./functionsStringEqual";
-import {isLikelyDeterministic} from "determinismus";
+import {seemsDeterministic} from "determinismus";
 
 export const WithPrecisonTestSuiteA = ()=>{
 
@@ -58,7 +58,7 @@ export const WithPrecisonTestSuiteA = ()=>{
             ]
 
             expect(
-                isLikelyDeterministic({
+                seemsDeterministic({
                     func: functionsStringEqual,
                     argGenerator : generator
                 })

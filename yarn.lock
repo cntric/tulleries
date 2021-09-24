@@ -1850,9 +1850,9 @@ detect-newline@^3.0.0:
   resolved "https://registry.npmjs.org/detect-newline/-/detect-newline-3.1.0.tgz"
   integrity sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==
 
-"determinismus@https://github.com/concentric-dev-git/determinismus":
+"determinismus@https://github.com/concentricio/determinismus":
   version "0.1.0"
-  resolved "https://github.com/concentric-dev-git/determinismus#5ee33493c5dccdb8137021fb9fd6db0a7c75637b"
+  resolved "https://github.com/concentricio/determinismus#6f71ffa5a38c34c63d289e7d4dd2e3910474c2de"
   dependencies:
     "@types/node" "^16.9.1"
     "@types/shortid" "^0.0.29"
