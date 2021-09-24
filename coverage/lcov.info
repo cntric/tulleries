@@ -4,11 +4,11 @@ FN:10,(anonymous_0)
 FN:10,(anonymous_1)
 FNF:2
 FNH:2
-FNDA:77,(anonymous_0)
-FNDA:77,(anonymous_1)
+FNDA:34,(anonymous_0)
+FNDA:20033,(anonymous_1)
 DA:1,1
-DA:10,77
-DA:11,77
+DA:10,34
+DA:11,20033
 LF:3
 LH:3
 BRDA:10,0,0,0

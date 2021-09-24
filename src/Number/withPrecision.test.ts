@@ -1,4 +1,5 @@
 import { withPrecision } from "./withPrecision";
+import {isLikelyDeterministic} from "determinismus";
 
 export const WithPrecisonTestSuiteA = ()=>{
 
@@ -11,7 +12,7 @@ export const WithPrecisonTestSuiteA = ()=>{
 
             Array(i).fill(null).map(()=>{
 
-                const randN = Math.floor(Math.random() * 100)
+                const randN = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
                 const offset = 1;
                 const precision = 10;
 
@@ -29,6 +30,23 @@ export const WithPrecisonTestSuiteA = ()=>{
 
             })
    
+        })
+
+        test("Is likely deterministic", ()=>{
+
+            const precision = Math.random();
+            const generator = () : [number, number]=>[
+                Math.floor(Math.random() * Number.MAX_SAFE_INTEGER),
+                Math.floor(Math.random() * Number.MAX_SAFE_INTEGER)
+            ]
+
+            expect(
+                isLikelyDeterministic({
+                    func: withPrecision(precision),
+                    argGenerator : generator
+                })
+            ).toBe(true);
+
         })
 
     })
