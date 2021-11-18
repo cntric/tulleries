@@ -1,9 +1,17 @@
 {
   "name": "tulleries",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "description": "Useful functions for checking equality within a tolerance.",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
+  "keywords" : [
+    "tolerance",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/concentricio/flora-exception"
+  },
   "exports": {
     ".": {
       "import": "./dist/mjs/index.js",
@@ -16,7 +24,6 @@
     "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./tsconfig-fixup",
     "docs": "rm -fr docs/* && npx typedoc src --categorizeByGroup false && http-server ./docs"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
