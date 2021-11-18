@@ -1,6 +1,6 @@
 {
   "name": "tulleries",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Useful functions for checking equality within a tolerance.",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
@@ -10,8 +10,9 @@
   ],
   "repository": {
     "type": "git",
-    "url" : "https://github.com/concentricio/tulleries"
+    "url" : "https://github.com/cntric/tulleries"
   },
+  "license" : "MIT",
   "exports": {
     ".": {
       "import": "./dist/mjs/index.js",
@@ -25,7 +26,6 @@
     "docs": "rm -fr docs/* && npx typedoc src --categorizeByGroup false && http-server ./docs"
   },
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
