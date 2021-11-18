@@ -1,6 +1,6 @@
 {
   "name": "tulleries",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Useful functions for checking equality within a tolerance.",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url" : "https://github.com/concentricio/flora-exception"
+    "url" : "https://github.com/concentricio/tulleries"
   },
   "exports": {
     ".": {
